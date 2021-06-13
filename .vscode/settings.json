@@ -1,0 +1,18 @@
+{
+  "python.pythonPath": ".venv/bin/python",
+  "python.formatting.provider": "autopep8",
+  "python.linting.pycodestyleEnabled": true,
+  "python.linting.pydocstyleArgs": [
+    "--ignore=D400",
+    "--ignore=D4",
+    "--max-line-length=90"
+  ],
+  "python.linting.pycodestyleArgs": ["--ignore=E303", "--max-line-length=100"],
+  "python.formatting.autopep8Args": ["--max-line-length=100"],
+  "editor.rulers": [89, 100],
+  "python.formatting.autopep8Path": "autopep8",
+  "editor.formatOnSave": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.enabled": true,
+  "python.linting.pydocstyleEnabled": false
+}
